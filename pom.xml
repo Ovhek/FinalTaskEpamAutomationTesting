@@ -12,12 +12,13 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <selenium.version>4.16.1</selenium.version>
-        <junit.version>5.10.1</junit.version>
-        <assertj.version>3.24.2</assertj.version>
-        <slf4j.version>2.0.9</slf4j.version>
-        <logback.version>1.4.14</logback.version>
-        <cucumber.version>7.14.0</cucumber.version>
+        <selenium.version>4.29.0</selenium.version>
+        <junit.version>5.12.0</junit.version>
+        <assertj.version>3.27.3</assertj.version>
+        <slf4j.version>2.0.17</slf4j.version>
+        <logback.version>1.5.17</logback.version>
+        <cucumber.version>7.21.1</cucumber.version>
+        <junit.platform.suite.version>1.12.0</junit.platform.suite.version>
     </properties>
 
     <dependencies>
@@ -47,6 +48,13 @@
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-suite</artifactId>
+            <version>${junit.platform.suite.version}</version>
+            <scope>test</scope>
+        </dependency>
+
 
         <!-- Cucumber -->
         <dependency>
