@@ -40,9 +40,8 @@ The Project automates the following test cases:
 
 1. **Singleton Pattern**: Used for the WebDriver manager, configuration manager, and test data provider
 2. **Factory Method Pattern**: Used for creating WebDriver instances
-3. **Abstract Factory Pattern**: Used for creating browser-specific WebDriver factories
-4. **Page Object Model**: Used for modeling web pages as objects
-5. **Page Factory**: Used for initializing WebElements with @FindBy annotations
+3. **Page Object Model**: Used for modeling web pages as objects
+4. **Page Factory**: Used for initializing WebElements with @FindBy annotations
 
 ## Features
 
